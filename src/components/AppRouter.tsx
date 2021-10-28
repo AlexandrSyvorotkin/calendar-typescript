@@ -3,7 +3,7 @@ import {Redirect, Route, Switch} from "react-router-dom";
 import {privateRoutes, publicRoutes, RouteNames} from "../router";
 
 const AppRouter = () => {
-    const auth = true
+    const auth = false
 
     return (
         auth ?
