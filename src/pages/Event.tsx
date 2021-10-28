@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
 
-const App:FC = () => {
+const Event : FC = () => {
     return (
         <div>
-            Работает
+            Event
         </div>
     );
 };
 
-export default App;
+export default Event;

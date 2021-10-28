@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
 
-const App:FC = () => {
+const Login: FC = () => {
     return (
         <div>
-            Работает
+            LOGIN
         </div>
     );
 };
 
-export default App;
+export default Login;
