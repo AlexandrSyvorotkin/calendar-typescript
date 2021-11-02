@@ -1,9 +1,8 @@
 import React, {FC} from 'react';
-import {Layout, Menu, Row} from "antd";
+import {Layout, Menu, PageHeader, Row} from "antd";
 import {useHistory} from "react-router-dom";
 import {RouteNames} from "../router";
 import {useTypedSelector} from "../hooks/useTypedSelector";
-import {AuthActionCreators} from "../store/reducers/auth/action-creators";
 import {useActions} from "../hooks/useActions";
 
 const NavBar: FC = () => {
@@ -14,6 +13,7 @@ const NavBar: FC = () => {
     return (
         <Layout.Header>
                 <Row justify='end'>
+                    <div style={{color: 'white', marginRight: '630px', fontSize: '30px'}}>React-TypeScript Calendar</div>
                     {isAuth
                         ?
                         <>
